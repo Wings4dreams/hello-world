@@ -1,0 +1,27 @@
+/* This is a Logic puzzle from codingbat.com
+* so far it is the one I had the most trouble
+* with. Here is the goal copied from the 
+* website: 'We want to make a row of bricks 
+* that is goal inches long. We have a number 
+* of small bricks (1 inch each) and big 
+* bricks (5 inches each). Return true if 
+* it is possible to make the goal by choosing
+* from the given bricks. This is a little harder 
+* than it looks and can be done without any loops.
+* this is what I came up with...
+*/
+
+public boolean makeBricks(int small, int big, int goal) {
+  int sum = big * 5 + small;
+  int big5 = big * 5;
+  
+  if (goal == sum || goal % 5 == small){ 
+    return true; 
+  }else{ 
+    if (big5 == goal || goal - big5 <= small && goal % 5 <= small){ 
+      return true; 
+    }else{ 
+    return false;
+    }
+  }
+}
