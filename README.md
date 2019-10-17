@@ -3,7 +3,7 @@ Laozi says: "A journey of 1000 miles starts with a single step." This is my joun
 
 Hello to those who stumble across this,
 
-I'm 36 years old, a gamer, and a dabbler in new and interesting experiences.
+I'm a gamer, a problem solver and a dabbler in new and interesting experiences.
 Currently enrolled in the University of South Florida for Cyber Security. 
  
 I love learning new things.
