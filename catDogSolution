@@ -1,0 +1,29 @@
+/*CodingBat writeup:
+
+Return true if the string "cat" and "dog" appear the same number of times in the given string.*/
+
+public boolean catDog(String str) {
+  
+  int catresult = str.indexOf("cat");
+  int dogresult = str.indexOf("dog");
+  int catn = 0;
+  int dogn = 0;
+  
+  while(catresult != -1){
+ 
+  catn++;
+  catresult = str.indexOf("cat", catresult + 1);
+  }
+   
+   while(dogresult != -1){
+    
+    dogn++;
+    dogresult = str.indexOf("dog",dogresult + 1);
+   }
+
+   if(dogn == catn)
+   return true;
+   
+   else
+   return false;
+}
